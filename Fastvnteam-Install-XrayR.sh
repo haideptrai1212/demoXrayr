@@ -177,8 +177,11 @@ cat >>config.yml<<EOF
         Provider: alidns # DNS cert provider, Get the full support list here: https://go-acme.github.io/lego/dns/
         Email: fastvnteam@gmail.com
         DNSEnv: # DNS ENV option used by DNS provider
-          ALICLOUD_ACCESS_KEY: aaa
-          ALICLOUD_SECRET_KEY: bbb
+          ALICLOUD_ACCESS_KEY: hangahaidz@mail.com
+          ALICLOUD_SECRET_KEY: curl -X GET "https://api.cloudflare.com/client/v4/zones/cd7d0123e3012345da9420df9514dad0" \ 
+-H "Content-Type:application/json" \ 
+-H "Authorization: Bearer 1234567893feefc5f0q5000bfo0c38d90bbeb"
+For additional information see the API Request documentation.
 EOF
 
 #   sed -i "s|ApiHost: \"https://domain.com\"|ApiHost: \"${api_host}\"|" ./config.yml
