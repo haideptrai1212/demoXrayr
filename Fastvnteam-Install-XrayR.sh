@@ -1,5 +1,5 @@
 clear
-echo "----- BUI THIEN BAN -----"
+echo "----- HANG A HAI -----"
 echo "   1. Cài đặt"
 echo "   2. update config"
 echo "   3. thêm node"
@@ -24,12 +24,12 @@ pre_install(){
   while [ $a -lt $n ]
 do
 
- echo "---------- FASTVN TEAM ----------"
- echo "--------- BUI THIEN BAN ---------"
+ echo "---------- PUN PN ----------"
+ echo "--------- HANG A HAI ---------"
  echo "-------------------------------"
  echo "VUI LÒNG CHỌN GIAO THỨC CẦN CÀI - PUNPN.XYZ -"
  echo "-- V2board_Nflash FASTVNTEAM.PRO.VN --"
- echo "---------- PHAM HONG THAI ---------"
+ echo "---------- HAI ĐEP TRAI S1 ---------"
  echo "-------------------------------"
 
 echo -e "Chọn Giao Thức NODE Số $((a+1))"
@@ -83,7 +83,7 @@ clone_node(){
   clear
 #node type
  echo "---------- FASTVN TEAM ----------"
- echo "--------- BUI THIEN BAN ---------"
+ echo "--------- HANG A HAI ---------"
  echo "-------------------------------"
  echo "VUI LÒNG CHỌN GIAO THỨC CẦN CÀI - PUNPN.XYZ -"
  echo "-------------------------------"
